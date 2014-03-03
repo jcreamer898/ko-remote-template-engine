@@ -1,0 +1,29 @@
+{
+  "name": "ko.remoteTemplateEngine",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jcreamer898/ko.remoteTemplateEngine",
+  "authors": [
+    "Jonathan Creamer <matrixhasyou2k4@gmail.com>"
+  ],
+  "description": "A remote template engine for knockout.js",
+  "main": "dist/ko.remoteTemplateEngine.min.js",
+  "keywords": [
+    "knockout.js",
+    "remote",
+    "template",
+    "ajax",
+    "template"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "ext",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout.js": "~3.0.0"
+  }
+}
