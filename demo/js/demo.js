@@ -1,9 +1,8 @@
 var viewModel = {
-    name: ko.observable('main')
+    name: ko.observable('main'),
+    items: ko.observableArray()
 };
 
 ko.applyBindings(viewModel);
 
-setTimeout(function() {
-    viewModel.name('main');
-}, 500);
+viewModel.items.push("foo", "bar", "bam")
