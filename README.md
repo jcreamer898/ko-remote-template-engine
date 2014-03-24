@@ -23,4 +23,14 @@ ko.remoteTemplateEngine.defaultSuffix = ".tmpl.html";
 So, in the case of `home` as a template name, a request will be made to pull down
 `templates/home.tmpl.html`.
 
+The engine works just as it would with regular templates, so you can add bindings for lists...
+
+```html
+<ul data-bind="template: {
+    foreach: items,
+    name: 'li'
+}">
+</ul>
+```
+
 There are demos in the `/demo` directory of this repo.
