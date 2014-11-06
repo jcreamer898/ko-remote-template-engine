@@ -5,7 +5,7 @@
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jcreamer898/ko.remoteTemplateEngine.git"
+    "url": "git://github.com/jcreamer898/ko-remoteTemplateEngine.git"
   },
   "keywords": [
     "knockout.js",
@@ -17,7 +17,7 @@
   "author": "Jonathan Creamer, Ryan Niemeyer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jcreamer898/ko.remoteTemplateEngine/issues"
+    "url": "https://github.com/jcreamer898/ko-remoteTemplateEngine/issues"
   },
   "dependencies": {
     "grunt": "~0.4.2",
