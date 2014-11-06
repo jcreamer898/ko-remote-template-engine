@@ -1,6 +1,6 @@
 {
   "name": "ko.remote-template-engine",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A remote templating engine for node.js",
   "main": "Gruntfile.js",
   "repository": {
