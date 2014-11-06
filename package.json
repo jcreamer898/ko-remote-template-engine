@@ -1,11 +1,11 @@
 {
-  "name": "ko.remoteTemplateEngine",
+  "name": "ko.remote-template-engine",
   "version": "1.0.0",
   "description": "A remote templating engine for node.js",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jcreamer898/ko-remoteTemplateEngine.git"
+    "url": "git://github.com/jcreamer898/ko-remote-template-engine.git"
   },
   "keywords": [
     "knockout.js",
@@ -17,7 +17,7 @@
   "author": "Jonathan Creamer, Ryan Niemeyer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jcreamer898/ko-remoteTemplateEngine/issues"
+    "url": "https://github.com/jcreamer898/ko-remote-template-engine/issues"
   },
   "dependencies": {
     "grunt": "~0.4.2",
