@@ -24,6 +24,6 @@
     "tests"
   ],
   "dependencies": {
-    "knockout.js": "~3.0.0"
+    "knockoutjs": "~3.2.0"
   }
 }
