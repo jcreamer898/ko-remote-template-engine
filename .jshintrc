@@ -7,7 +7,8 @@
         "describe",
         "it",
         "expect",
-        "sinon"
+        "sinon",
+        "define"
     ],
     "browser" : true,
     "curly": false,
