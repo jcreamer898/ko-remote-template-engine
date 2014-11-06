@@ -1,6 +1,19 @@
-/*! ko.remoteTemplateEngine - v1.0.0 - 2014-03-03
+/*! ko.remote-template-engine - v1.0.0 - 2014-11-06
 * Copyright (c) 2014 ; Licensed  */
-(function (ko) {
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        // AMD. Register as an anonymous module.
+        define(['knockout'], function (b) {
+            // Also create a global in case some scripts
+            // that are loaded still are looking for
+            // a global even when an AMD loader is in use.
+            return (factory(b));
+        });
+    } else {
+        // Browser globals
+        factory(root.ko);
+    }
+}(this, function (ko) {
     var addTrailingSlash = function(path) {
         return path && path.replace(/\/?$/, "/");
     };
@@ -105,4 +118,4 @@
     //make this new template engine our default engine
     ko.setTemplateEngine(engine);
 
-})(ko);
+}));
